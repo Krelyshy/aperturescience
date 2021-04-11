@@ -23,7 +23,7 @@ var cake = {
         cake.player = document.createElement('audio');
         if (cake.player.play) {
             cake.player.setAttribute('prebuffer', 'auto');
-            cake.player.setAttribute('src', 'Still Alive.ogg');
+            cake.player.setAttribute('src', 'Still Alive.mp3');
             cake.player.load();
             setTimeout("cake.player.play()", delay);
         }
